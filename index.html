@@ -1,0 +1,123 @@
+<!DOCTYPE html> <!-- Nos indica que usamos HTML5 -->
+<html lang="es"> <!-- Indica el Idioma -->
+<head>
+    <meta charset="UTF-8"> <!-- Indica el abecedario -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pruebas con HTML</title>
+</head>
+<body>
+    
+    <h1>Encabezado 1</h1> <!-- Título principal -->
+    <h2>Encabezado 2</h2> <!-- Subtitulos -->
+    <h3>Encabezado 3</h3>
+    <h4>Encabezado 4</h4>
+    <h5>Encabezado 5</h5>
+    <h6>Encabezado 6</h6>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis explicabo amet eum sunt error laboriosam omnis, officiis cumque, assumenda hic pariatur blanditiis nesciunt exercitationem aliquid accusamus reiciendis aut reprehenderit accusantium.
+    </p>
+
+    <a href="http://google.com" target="_blank">Enlace</a>
+
+    <p>
+        Etiqueta <strong>abc</strong> y etiqueta <em>énfasis</em>
+    </p>
+
+    <h2>Lista Desordenada</h2>
+    <ul>
+        <li>Frutas</li>
+        <li>Verduras</li>
+        <li>Leche</li>
+    </ul>
+
+    <h2>Lista Ordenada</h2>
+    <ol>
+        <li>Despertar</li>
+        <li>Hacer café</li>
+        <li>Codificar</li>
+    </ol>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Tabla 1</th>
+                <th>Tabla 2</th>
+                <th>Tabla 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Columna 1.1</td>
+                <td>Columna 1.2</td>
+                <td>Columna 1.3</td>
+            </tr>
+            <tr>
+                <td>Columna 2.1</td>
+                <td>Columna 2.2</td>
+                <td>Columna 2.3</td>
+            </tr>
+        </tbody>
+    </table>
+    <!--a href="http://codingdojo.com" href="_blank">
+        <img src="img/gatito.jpg" alt="Imagen de Gatito"> 
+    </a-->
+    <img src="img/gatito.jpg" alt="Imagen de Gatito"> 
+
+    <div>
+        <p>Elemento divisor o seccionado</p>
+    </div>
+
+    <form action="/accion" method="post">
+        <div>
+            <label for="input_texto">Input Texto</label>
+            <input type="text" name="input_texto" value="Nombre" id="input_texto">
+            <input type="number" name="input_numeral" min="1" max="10">
+            <input type="password" name="input_contra" placeholder="Escribe tu contraseña">
+            <input type="date" name="input_fecha" >
+            <input type="email" name="input_email" >
+        </div>
+
+        <div>
+            <input type="radio" name="estado_civil" value="casado" id="input_casado">
+            <label for="input_casado">Casado</label><br>
+            <input type="radio" name="estado_civil" value="soltero" id="input_soltero">
+            <label for="input_soltero">Soltero</label>
+        </div>
+
+        <div>
+            <input type="checkbox" name="mayor_edad" id="input_edad" >
+            <label for="input_edad">¿Eres mayor de edad?</label>
+        </div>
+
+        <div>
+            <textarea name="comentario" cols="50" rows="10"></textarea>
+        </div>
+
+        <div>
+            <select name="hobby">
+                <option>Andar en Bici</option>
+                <option>Leer</option>
+                <option>Jugar videojuegos</option>
+            </select>
+        </div>
+        <div>
+            <input value="Enviar" type="submit" >
+        </div>
+
+    </form>
+    <form >
+        <div>
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre">
+        </div>
+        <div>
+            <label for="apellido">Apellido</label>
+            <input type="text" name="apellido" id="apellido" >
+        </div>
+        <input type="submit" value="enviar" >
+    </form>
+
+</body>
+</html>
