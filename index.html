@@ -5,15 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pruebas con HTML</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     
     <h1>Encabezado 1</h1> <!-- Título principal -->
-    <h2>Encabezado 2</h2> <!-- Subtitulos -->
-    <h3>Encabezado 3</h3>
+    <h2 class="azul italica">Encabezado 2</h2> <!-- Subtitulos -->
+    <h3 id="h3_id">Encabezado 3</h3>
     <h4>Encabezado 4</h4>
     <h5>Encabezado 5</h5>
-    <h6>Encabezado 6</h6>
+    <h6 class="azul">Encabezado 6</h6>
 
     <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis explicabo amet eum sunt error laboriosam omnis, officiis cumque, assumenda hic pariatur blanditiis nesciunt exercitationem aliquid accusamus reiciendis aut reprehenderit accusantium.
@@ -24,6 +25,17 @@
     <p>
         Etiqueta <strong>abc</strong> y etiqueta <em>énfasis</em>
     </p>
+
+    <p class="parrafo">
+        <strong>Hello !</strong> ¿Cómo estás?
+    </p>
+
+    <div class="contenedor">
+        <h4>H4 hijo directo</h4>
+        <div>
+            <h4>H4 Nieto</h4>
+        </div>
+    </div>
 
     <h2>Lista Desordenada</h2>
     <ul>
@@ -119,5 +131,6 @@
         <input type="submit" value="enviar" >
     </form>
 
+    <script src="index.js"></script>
 </body>
 </html>

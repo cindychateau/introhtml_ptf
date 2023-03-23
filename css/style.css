@@ -1,0 +1,45 @@
+/*
+BASICOS
+
+elemento {
+    propiedad: valor;
+}
+
+.clase {
+    propiedad: valor;
+}
+
+#id {
+    propiedad: valor;
+}
+
+selector-padre hijo {
+    propiedad: valor;
+}
+
+*/
+
+h1 {
+    color: red;
+}
+
+.azul {
+    color: blue;
+}
+
+.italica {
+    font-style: italic
+}
+
+#h3_id {
+    font-size: 100px;
+    color: brown;
+}
+
+.parrafo strong { /*Seleccionando un strong que esté adentro de clase parrafo*/
+    text-transform: uppercase;
+}
+
+.contenedor > h4 { /*Descendiente directo de contenedor que tiene etiqueta h4*/
+    text-decoration: underline;
+}
