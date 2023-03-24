@@ -43,3 +43,105 @@ h1 {
 .contenedor > h4 { /*Descendiente directo de contenedor que tiene etiqueta h4*/
     text-decoration: underline;
 }
+
+h2.azul { /*Selecciona el elemento que aplica para ambos selectores*/
+    color: purple;
+}
+
+input[type="text"] {
+    width: 350px;
+}
+
+input[type="number"] {
+    height: 50px;
+}
+
+input, textarea { /* Selecciona los inputs y textarea */
+    border: 3px dashed magenta; /*tipo de linea: solid, dashed, dotted*/
+}
+
+/*TAMAÑO*/
+.tamaño {
+    background-color: gray;
+    width: 400px; /*ANCHO*/ /*px, %, em, vh, vw, rem, pt*/
+    height: 50px; /*ALTO*/
+}
+
+/*BACKGROUND*/
+.background {
+    width: 400px;
+    height: 600px;
+    border: 1px solid black;
+    background-color: aqua;
+    background-image: url("../img/gatito_small.jpg");
+    background-size: 100%; /*Cover: estira la imagen de manera vertical, 100%: estirar de manera horizontal*/
+    background-repeat: no-repeat;
+    /*
+    background-position-x, background-position-y
+    */
+}
+
+.padre {
+    background-color: yellow;
+    width: 500px;
+    height: 100px;
+    overflow: hidden;
+}
+
+.hijo {
+    border: 2px solid black;
+    width: 100px;
+    height: 250px;
+}
+
+.texto {
+    text-align: center; /*left, right, center, justify*/
+    text-decoration: underline; /*underline, line-through, none, overline, wavy*/
+    text-decoration-color: red;
+    /* font-family: 'Roboto', sans-serif; */
+    font-style: italic; /*italic, normal*/
+    /*font-weight: bold;*/
+    font-size: 30px;
+    text-transform: capitalize; /*capitalize, uppercase, lowercase*/
+}
+.texto-diferente {
+    color: red;
+    text-decoration: overline;
+    font-size: 20px;
+}
+
+.box_model {
+    width: 100px;
+    height: 100px;
+    background: purple;
+    margin: 10px;
+    border: 2px solid black;
+    padding: 25px;
+}
+
+.inline {
+    display: inline; /*Me despliega los elementos en una sola línea. No puedo dar un tamaño a mi elemento*/
+}
+
+.block {
+    display: block; /*Me despliega mis elementos como bloque, es decir que comienzan desde el principio de la página hasta el ancho total de mi página*/
+}
+
+.inline-block {
+    border: 1px solid;
+    display: inline-block;
+    width: 300px;
+    vertical-align: top; /*top, bottom, middle*/
+}
+
+#div1 {
+    height: 150px;
+}
+
+#div2 {
+    height: 300px;
+}
+
+#div3 {
+    height: 80px;
+}
