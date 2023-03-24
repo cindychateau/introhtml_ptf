@@ -19,8 +19,16 @@ selector-padre hijo {
 
 */
 
+* { /*CSS RESET*/
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
 h1 {
     color: red;
+    outline: 1px;
 }
 
 .azul {
